@@ -127,4 +127,6 @@ grant {
         permission javax.management.MBeanServerPermission "findMBeanServer";
         permission javax.management.MBeanPermission "com.amazonaws.metrics.*", "*";
         permission javax.management.MBeanTrustPermission "register";
+
+        permission java.lang.RuntimePermission "accessDeclaredMembers";
 };
